@@ -6,3 +6,16 @@
     }
   
     }
+
+.btn {
+    background-color: #90D240;
+    border-color: #90D240;
+    border-radius: 10px;
+}
+
+.nav-bar-info{
+    height: 40px;
+    background-color: #90D240 !important;
+    color: white;
+    font-weight: bolder;
+}
