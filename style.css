@@ -1,16 +1,29 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
 @media (min-width: 1400px){
-
-    .card-img-top {
-        width: 238px;
+    #card-img {            
+        width:  238px;
         height: 238px;
     }
-  
-    }
+    
 
-.btn {
+}
+
+
+.btn-success {
     background-color: #90D240;
     border-color: #90D240;
     border-radius: 10px;
+}
+.btn-danger {
+    background-color: #7F2FB1;
+    border-color: #7F2FB1;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.btn-danger:hover {
+    background-color: #4E017E;
 }
 
 .nav-bar-info{
@@ -18,4 +31,12 @@
     background-color: #90D240 !important;
     color: white;
     font-weight: bolder;
+}
+
+footer {
+    background-color:#3E0362;
+}
+
+.fa-shopping-cart {
+    cursor: pointer;
 }
